@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="iQ5sgA" name="InitialDelay" projectType="audioplug" jucerVersion="5.4.3"
+              pluginName="Initial:Delay" pluginDesc="Initial:Delay" pluginAUExportPrefix="Initial_DelayAU"
+              pluginManufacturer="Studio_Nani">
+  <MAINGROUP id="EL7c0q" name="InitialDelay">
+    <GROUP id="{7EFB86AA-79E1-9443-1A3F-1196EBF89B6B}" name="Resources ">
+      <FILE id="fcAA4J" name="InitialDAnimation1.png" compile="0" resource="1"
+            file="Animation/InitialDAnimation1.png"/>
+      <FILE id="TTS3a9" name="InitialDAnimation3.png" compile="0" resource="1"
+            file="Animation/InitialDAnimation3.png"/>
+      <FILE id="Xwmjnz" name="InitialDAnimation2.png" compile="0" resource="1"
+            file="Animation/InitialDAnimation2.png"/>
+      <FILE id="ZqoVv2" name="InitialDAnimation4.png" compile="0" resource="1"
+            file="Animation/InitialDAnimation4.png"/>
+      <FILE id="NtSqNi" name="InitialDAnimation5.png" compile="0" resource="1"
+            file="Animation/InitialDAnimation5.png"/>
+      <FILE id="x1ylrr" name="InitialDAnimation6.png" compile="0" resource="1"
+            file="Animation/InitialDAnimation6.png"/>
+      <FILE id="xUM46Y" name="InitialDAnimation7.png" compile="0" resource="1"
+            file="Animation/InitialDAnimation7.png"/>
+      <FILE id="alEl0Y" name="InitialDAnimation8.png" compile="0" resource="1"
+            file="Animation/InitialDAnimation8.png"/>
+      <FILE id="KvYIT8" name="CyberDrive.png" compile="0" resource="1" file="Skins/CyberDrive.png"/>
+      <FILE id="sgomCn" name="CyberKnob.png" compile="0" resource="1" file="Skins/CyberKnob.png"/>
+      <FILE id="EFLvAF" name="CyberKnobTime.png" compile="0" resource="1"
+            file="Skins/CyberKnobTime.png"/>
+      <FILE id="GJpvuB" name="DriveKnob.png" compile="0" resource="1" file="Skins/DriveKnob.png"/>
+      <FILE id="Mccgx7" name="InitialD.png" compile="0" resource="1" file="Skins/InitialD.png"/>
+      <FILE id="iG1Ozm" name="Turbo.png" compile="0" resource="1" file="Skins/Turbo.png"/>
+    </GROUP>
+    <GROUP id="{29B95A44-71CC-307D-A255-8C6BC19F2F61}" name="Source">
+      <FILE id="o7I9ar" name="DelayModule.cpp" compile="1" resource="0" file="Source/DelayModule.cpp"/>
+      <FILE id="XYWklx" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="KWqRpI" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="XwGZFd" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="AgDQzI" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <FILE id="R7V5pZ" name="DelayModule.h" compile="0" resource="0" file="Source/DelayModule.h"/>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../Massey/Yr3_Massey/Sem1/Software_2/sdk/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
