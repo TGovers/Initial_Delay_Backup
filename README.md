@@ -39,7 +39,7 @@
 
 ![alt text](https://i.imgur.com/aKIrEBF.png "Coming Soon")
 
-## Initial Delay TLDR (WORK IN PROGRESS)
+## Initial Delay TLDR 
 
 Initial Delay is a simple and intuitive VST plugin with an anime aesthetic. It utilises a 2-parameter IIR Filter and a single-parameter Delay. Initial Delay was designed for use with a multitude of different instruments in mind, such as
 * Synths
@@ -84,7 +84,7 @@ If using the JUCE project directly, please refer to a youtube guide or the JUCE 
 
 Another great source of help we can recommend is [The Audio Programmer Youtube Page](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A "https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A") 
 
-## Initial Delay In-depth (WORK IN PROGRESS)
+## Initial Delay In-depth
 
 Initial Delay was primarily built with [Projucer](https://juce.com/ "https://juce.com/")/[XCode](https://developer.apple.com/xcode/ "https://developer.apple.com/xcode/") as a plugin suited specifically to those who maybe don’t know their way round plugins, but are wanting something cool and intuitive to add that extra “oomph!” to their work.
 
