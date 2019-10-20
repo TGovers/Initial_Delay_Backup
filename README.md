@@ -12,7 +12,7 @@
 ![alt text](https://i.imgur.com/n1Wqot0.png "InitialDelay")
 
 ## Table of Contents  
-[Initial Delay Demostration Videos](#initialdelaydemonstrationvideos)
+[Initial Delay Demostration Video](#initialdelaydemonstrationvideo)
 
 [Initial Delay TLDR](#initialdelaytldr)
 
@@ -24,20 +24,16 @@
 
 [License](#license)
 
-<a name="initialdelaydemonstrationvideos"/>
+<a name="initialdelaydemonstrationvideo"/>
 <a name="initialdelaytldr"/>
 <a name="installationguide"/>
 <a name="initialdelayindepth"/>
 
-## Initial Delay Demonstration Videos
+## Initial Delay Demonstration Video
 
-### Song Demonstration (WORK IN PROGRESS)
+### Omoide (思い出) Demonstration
 
-![alt text](https://i.imgur.com/aKIrEBF.png "Coming Soon")
-
-### White Noise Demonstration (WORK IN PROGRESS)
-
-![alt text](https://i.imgur.com/aKIrEBF.png "Coming Soon")
+[![IMAGE ALT TEXT HERE](https://i.imgur.com/GYrOufe.png)](https://vimeo.com/367559235)
 
 ## Initial Delay TLDR 
 
