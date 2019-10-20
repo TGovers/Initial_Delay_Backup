@@ -37,6 +37,18 @@
 
 ## Initial Delay TLDR 
 
+Initial Delay is a part of a greater plugin suite by Studio Nani called 
+
+### Omoide (思い出)
+
+Check out our other awesome plugins through the following links!
+
+- https://github.com/TGovers/Angry_Ayaya
+
+- https://github.com/TGovers/Initial_Demon
+
+- https://github.com/TGovers/Tokyo_Re-Verb
+
 Initial Delay is a simple and intuitive VST plugin with an anime aesthetic. It utilises a 2-parameter IIR Filter and a single-parameter Delay. Initial Delay was designed for use with a multitude of different instruments in mind, such as
 * Synths
 * Baritone Electric Guitars
