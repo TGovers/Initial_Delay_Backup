@@ -9,7 +9,7 @@
 ### /// INTRODUCING ///
 ### /// INITIAL DELAY ///
 
-![alt text](https://i.imgur.com/aKIrEBF.png "Coming Soon")
+![alt text](https://i.imgur.com/n1Wqot0.png "InitialDelay")
 
 ## Table of Contents  
 [Initial Delay Demostration Videos](#initialdelaydemonstrationvideos)
@@ -48,7 +48,7 @@ Initial Delay is a simple and intuitive VST plugin with an anime aesthetic. It u
 * Bass Guitars
 * And anything else you want to put through it, it's completely up to you!
 
-Initial Delay has full automation and save state capabilities for easy use within your favourite DAW! Currently Initial Delay only has a Mac DMG installer, but can be used in Windows via the instructions detailed in the Installation Guide section.
+Initial Delay has full automation and save state capabilities for easy use within your favourite DAW! Initial Delay features installers for both Windows and Mac systems, as well as access to the JUCE project itself (please refer to license) 
 
 Initial Delay was inspired by the anime "Initial D" and it's internet memes, click the link to the Youtube video below to **_witness the majesty that is Initial D_** 
 
@@ -61,32 +61,26 @@ We wanted to release Initial Delay for free, but if you wish to donate it would 
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YP29EFC3QEU4L)
 
-Additionally, if you want to get in contact with us our email is angryayaya@gmail.com
+Additionally, if you want to get in contact with us please refer to our personal websites:
+
+- https://tgovers1998.wixsite.com/taylorgovers
+
+- https://ethanzacharypunter.wixsite.com/studionani
 
 We'd love to hear from you about our plug-in, whether it be recommendations, issues or just a nice message to us!
 
 From the team behind **_Initial Delay_**, we really hope that you enjoy our plugin and make some awesome tunes with it!
 Thank you!
 
--- Team Angry Ayaya --
+-- Studio Nani --
 
 ## Installation Guide
 
-For Mac users, we recommend cloning/downloading the repository to your computer and installing the plugin through the easy-to-use DMG installer
+For Mac users, we recommend cloning/downloading the repository to your computer and installing the plugin through the easy-to-use DMG installer. Simply mount the disk image/DMG (InitialDemon_MAC.dmg) and then open the .pkg file found inside. Follow the instructions within the .pkg installer and you'll be good to go!
 
-**Step 1: Open This!**
+For Windows users, we recommend downloading the repository to your computer and installing the plugin through the easy-to-use EXE installer (InitialDemon_WINDOWS.exe)
 
-![alt text](https://i.imgur.com/aKIrEBF.png "Coming Soon")
-
-**Step 2: Open the .pkg found inside for quick and easy installation!**
-
-![alt text](https://i.imgur.com/aKIrEBF.png "Coming Soon")
-
-For Windows users, you will need to setup and run the plugin on your computer. For this you will need
-* [Projucer](https://juce.com/ "https://juce.com/")
-* [Microsoft Visual Studio](https://visualstudio.microsoft.com/ "https://visualstudio.microsoft.com/")
-
-Please refer to a youtube guide or the JUCE website if you are unsure on how to begin! We recommend this [video by Miskat Music](https://www.youtube.com/watch?v=rGzSSNjbXlA "https://www.youtube.com/watch?v=rGzSSNjbXlA") or the [JUCE Tutorials Page](https://juce.com/learn/tutorials "https://juce.com/learn/tutorials").
+If using the JUCE project directly, please refer to a youtube guide or the JUCE website if you are unsure on how to begin! We recommend this [video by Miskat Music](https://www.youtube.com/watch?v=rGzSSNjbXlA "https://www.youtube.com/watch?v=rGzSSNjbXlA") or the [JUCE Tutorials Page](https://juce.com/learn/tutorials "https://juce.com/learn/tutorials").
 
 Another great source of help we can recommend is [The Audio Programmer Youtube Page](https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A "https://www.youtube.com/channel/UCpKb02FsH4WH4X_2xhIoJ1A") 
 
@@ -100,14 +94,12 @@ The IIR filter has two parameters that you can change; the frequency Cutoff and 
 * The Cuttoff knob changes the maximum frequency that the filter will let through (as a low-pass filter)
 * The Q-Factor knob changes the resonance or **Q** of the filter
 
-The Delay feature has one parameter that you can change; the Time value. 
-* The Time knob changes the overall length of the Delay (ie how long it delays)
+The Delay feature has three parameters that you can change; the Delay Time, Feedback and Mix. 
+* The Delay Time knob changes the overall length of the Delay sample (ie how long the sample is that it delays)
+* The Feedback knob changes how long the delayed audio repeats for
+* The Mix knob adjusts the wet/dry mix of the delay and original audio
 
-If you want to essentially “turn off” the delay, just turn the delay Time knob to its lowest value. 
-
-Here is a setup that we recommend to get you started with the plugin. It creates a really subtle distortion with just the low frequencies coming through, creating a nice rumble or pulse depending on what you are putting through it.
-
-![alt text](https://i.imgur.com/aKIrEBF.png "Coming Soon")
+If you want to essentially “turn off” the delay, just turn the delay Time or Mix knob to its lowest value. 
 
 ## Contributing and Inspiration
 
@@ -115,7 +107,7 @@ Currently Initial Delay is not open to contribution, but this could change in th
 
 Taylor Govers: Processor Editor, Repository/README/License Management, Assistant GUI Editor
 
-Ethan Punter: GUI Editor, Repository Management, Photoshop Editor
+Ethan Punter: GUI Editor, GUI Repository Management, Photoshop Editor
 
 For this project, we had inspiration and were helped with code by this youtuber. They make awesome work so please check them out and support them!
 
